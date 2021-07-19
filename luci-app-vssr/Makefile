@@ -46,7 +46,6 @@ define Package/luci-app-vssr
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Xray:xray-core \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:trojan \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:ipt2socks \
-			+PACKAGE_$(PKG_NAME)_INCLUDE_Kcptun:kcptun-client \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Xray_plugin:xray-plugin \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server
 endef

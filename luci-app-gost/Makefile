@@ -16,6 +16,6 @@ LUCI_PKGARCH:=all
 
 PKG_MAINTAINER:=ImmortalWrt
 
-include ../../luci.mk
+include ../../luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
